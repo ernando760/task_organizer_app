@@ -2,7 +2,7 @@ name: task_organizer_app
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -27,6 +27,7 @@ environment:
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
+
 dependencies:
   flutter:
     sdk: flutter
@@ -35,12 +36,18 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   isar: ^3.1.0+1
-  isar_flutter_libs: ^3.1.0+1
+  isar_flutter_libs:
+    path: lib_custom/isar_flutter_libs
   go_router: ^15.1.2
   auto_injector: ^2.1.0
   logger: ^2.5.0
   result_dart: ^2.1.0
   google_fonts: ^6.2.1
+  equatable: ^2.0.7
+  uuid: ^4.5.1
+  path_provider: ^2.1.5
+  shimmer: ^3.0.0
+  frontend_server_client: ^4.0.0
 
 dev_dependencies:
   flutter_test:
@@ -54,13 +61,13 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   isar_generator: ^3.1.0+1
   build_runner: ^2.4.13
+  mocktail: ^1.0.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
