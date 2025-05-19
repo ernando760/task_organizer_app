@@ -2,7 +2,7 @@ import 'package:result_dart/result_dart.dart';
 
 import '../error/base_exception.dart';
 
-abstract class BaseUseCase<
+abstract class BaseUsecase<
   S extends Object,
   F extends BaseException,
   P extends Object?
