@@ -119,7 +119,7 @@ Todos os códigos foram revisados e adaptados por mim para garantir consistênci
 
 ## 🎥 Vídeo
 
-![🎥 Ver vídeo de demonstração](assets/doc/demo.gif)
+<img src="assets/doc/demo.gif" width="300" heigth="200" />
 
 ---
 
